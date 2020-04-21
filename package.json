@@ -1,0 +1,22 @@
+{
+  "name": "2cloudflare",
+  "version": "1.0.0",
+  "description": "Simple node application to convert yaml/json to cloudflare descritive file",
+  "main": "convert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dminella/2cloudflare.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dminella/2cloudflare/issues"
+  },
+  "homepage": "https://github.com/dminella/2cloudflare#readme",
+  "dependencies": {
+    "js-yaml": "^3.13.1"
+  }
+}

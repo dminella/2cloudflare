@@ -1,2 +1,6 @@
-# 2cloudflare
-Simple node application to convert yaml/json to cloudflare descritive file
+# Description:
+A converter from dns records from .YAML(GCP) and .JSON(AWS) to Cloudflare descritive way.
+
+# How to run:
+`npm install` in order to install dependencies
+`node convert.js`

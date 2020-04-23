@@ -20,7 +20,7 @@ module.exports.convertToCloudflare = function (directoryPath) {
                     let dnsRecords = yaml.safeLoadAll(dnsRecordFile);
                     dnsRecords.forEach(dnsRecord => {
                         dnsRecord.rrdatas.forEach(value => {
-                            const convertedRecord = `${dnsRecord.name} 1 IN ${dnsRecord.type} ${value}\n`;
+                            const convertedRecord = `${dnsRecord.Name}	1	IN	${dnsRecord.Type}	${value.Value}\n`;
                             appendInConvertedJsonFile(convertedRecord);
                         });
                     });

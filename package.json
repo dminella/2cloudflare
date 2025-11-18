@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/dminella/2cloudflare#readme",
   "dependencies": {
-    "js-yaml": "^3.13.1"
+    "js-yaml": "^3.14.2"
   }
 }
